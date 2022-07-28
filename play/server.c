@@ -31,8 +31,6 @@ int main(){
 
     
 
-    recvfrom(server_sock,buffer,1024,0);
-    sendto(server_sock,buffer,1024,0)
 
 
     return 0;
