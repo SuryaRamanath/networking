@@ -38,6 +38,7 @@ int main(){
   printf("Listening...\n");
 
   while(1){
+    
     addr_size = sizeof(client_addr);
     client_sock = accept(server_sock, (struct sockaddr*)&client_addr, &addr_size);
     printf("[+]Client connected.\n");
